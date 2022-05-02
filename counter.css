@@ -1,0 +1,29 @@
+.number {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.minus {
+    position: absolute;
+    left: 0;
+    transform: translateY(80%);
+    top: 0;
+}
+.PlusminusResult {
+    width: 100%;
+    padding: 0.7rem 0.9rem;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #212529;
+    font-weight: bold;
+    border: none!important;
+    /* border-radius: 2rem; */
+}
+
+.plus {
+    position: absolute;
+    right: 0;
+    transform: translateY(80%);
+    top: 0;
+}
